@@ -1,6 +1,27 @@
-databasename = invoice_db
-php artisan migrate
-php atisan db:seed
-php artisan serve
+# Turf Invoice Management System
 
-Used barryvdh/laravel-dompdf - for pdf
+A Laravel-based invoice management system for sports turf facilities.
+
+## Features
+
+- Create Invoice
+- Multiple Service Selection
+- Automatic Calculation (Subtotal, Tax, Discount)
+- Invoice Listing
+- Invoice Detail View
+- PDF Download
+- Relational Database Structure
+
+## Tech Stack
+
+- Laravel
+- MySQL
+- DOMPDF
+
+## Setup Instructions
+
+1. Clone repo
+2. Run composer install
+3. Configure .env
+4. Run php artisan migrate --seed
+5. php artisan serve
